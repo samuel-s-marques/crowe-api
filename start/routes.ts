@@ -20,5 +20,17 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-// rota de candidatos
-Route.resource('/applicants', 'ApplicantsController').apiOnly()
+// listar candidatos
+Route.post('/applicants', 'ApplicantsController.index')
+
+// novo candidato
+Route.post('/applicants/new', 'ApplicantsController.store')
+
+// mostrar candidato específico, dado o ID
+Route.get('/applicants/:id', 'ApplicantsController.show')
+
+// atualizar candidato específico, dado o ID
+Route.put('/applicants/:id', 'ApplicantsController.update')
+
+// deletar candidato específico, dado o ID
+Route.delete('/applicants/:id', 'ApplicantsController.destroy')
