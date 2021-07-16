@@ -15,7 +15,6 @@ A Crowe está iniciando um novo processo seletivo e solicitou ao setor de Tecnol
   - [x] Exclusão
   - [x] Exibição
   - [x] Edição
-- [ ] API [ViaCep](https://viacep.com.br/)
 
 ## Executando o projeto
 - Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
@@ -28,12 +27,10 @@ PORT=3333
 HOST=0.0.0.0
 NODE_ENV=development
 APP_KEY=
-SESSION_DRIVER=cookie
-CACHE_VIEWS=false
 DB_CONNECTION=mysql
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
-MYSQL_USER=
+MYSQL_USER=root
 MYSQL_PASSWORD=
 MYSQL_DB_NAME=crowe
 ```
@@ -44,5 +41,4 @@ node ace serve --watch
 ```
 
 ## Licença
-
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
