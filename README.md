@@ -9,12 +9,11 @@ A Crowe está iniciando um novo processo seletivo e solicitou ao setor de Tecnol
 - [ ] MySQL
 
 ## TODO
-- [x] Back-end
-  - [x] Cadastro
-  - [x] Listagem
-  - [x] Exclusão
-  - [x] Exibição
-  - [x] Edição
+- [x] Cadastro
+- [x] Listagem
+- [x] Exclusão
+- [x] Exibição
+- [x] Edição
 
 ## API
 | Método | Rota | Handler | Descrição |
