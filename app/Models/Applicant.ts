@@ -9,6 +9,9 @@ export default class Applicant extends BaseModel {
 	public nome: string
 
 	@column()
+	public email: string
+
+	@column()
 	public resumo_da_entrevista: string
 
 	@column()
