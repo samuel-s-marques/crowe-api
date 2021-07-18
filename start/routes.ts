@@ -21,7 +21,7 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 // listar candidatos
-Route.post('/applicants', 'ApplicantsController.index')
+Route.get('/applicants', 'ApplicantsController.index')
 
 // novo candidato
 Route.post('/applicants/new', 'ApplicantsController.store')
