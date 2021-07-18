@@ -26,7 +26,6 @@ A Crowe está iniciando um novo processo seletivo e solicitou ao setor de Tecnol
 
 ## Executando o projeto
 - Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-- Conecte o projeto a um banco de dados MySQL (através do [XAMPP](https://www.apachefriends.org/index.html) ou outro)
 - Defina no arquivo .env.example as configurações do projeto
 - Remova .example do .env.example
 
@@ -35,12 +34,7 @@ PORT=3333
 HOST=0.0.0.0
 NODE_ENV=development
 APP_KEY=
-DB_CONNECTION=mysql
-MYSQL_HOST=localhost
-MYSQL_PORT=3306
-MYSQL_USER=root
-MYSQL_PASSWORD=
-MYSQL_DB_NAME=crowe
+DB_CONNECTION=sqlite
 ```
 
 Agora, inicie o projeto.
