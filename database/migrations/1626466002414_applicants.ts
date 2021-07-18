@@ -7,6 +7,7 @@ export default class Applicants extends BaseSchema {
 		this.schema.createTable(this.tableName, (table) => {
 			table.increments('id')
 			table.string('nome').notNullable()
+			table.string('cpf').unique().notNullable()
 			table.string('email').unique().notNullable()
 			table.text('resumo_da_entrevista', 'longtext').notNullable()
 			table.string('logradouro').notNullable()

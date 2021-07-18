@@ -11,6 +11,7 @@ export default class ApplicantsController {
 	public async store ({ request }: HttpContextContract) {
 		const data = request.only([
 			'nome',
+			'cpf',
 			'email',
 			'resumo_da_entrevista',
 			'logradouro',
@@ -36,6 +37,7 @@ export default class ApplicantsController {
 		const applicant = await Applicant.findOrFail(params.id)
 		const data = request.only([
 			'nome',
+			'cpf',
 			'email',
 			'resumo_da_entrevista',
 			'logradouro',
