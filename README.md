@@ -26,9 +26,9 @@ Este repositório guarda o back-end do projeto. Baixe e instale o projeto [crowe
 - [ ] Edição de candidatos
 
 ## Tecnologias
-- [ ] AdonisJS
-- [ ] Typescript
-- [ ] SQLite3
+- [ ] [AdonisJS](https://adonisjs.com/)
+- [ ] [Typescript](https://www.typescriptlang.org/)
+- [ ] [SQLite3](https://www.sqlite.org/index.html)
 
 ## TODO
 - [x] Cadastro
@@ -59,7 +59,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina o [Git](http
 
 ### Rodando o front-end (cliente)
 
-Baixe o repositório do front-end (necessário extrair os arquivos), seja clicando [aqui](https://github.com/samuel-s-marques/crowe-api/archive/refs/heads/master.zip) ou clonando com:
+Baixe o repositório do front-end (necessário extrair os arquivos), seja clicando [aqui](https://github.com/samuel-s-marques/crowe-web/archive/refs/heads/master.zip) ou clonando com:
 
 ```bash
 $ git clone https://github.com/samuel-s-marques/crowe-web
@@ -98,12 +98,16 @@ Instale as dependências com **yarn** ou **npm install**
 $ npm install
 ```
 
-Defina no arquivo .env.example as configurações:
+Defina no arquivo .env.example as configurações. Para obter o valor da chave APP_KEY, você terá de gerar através do comando
+```bash
+$ node ace generate:key
+```
+Após gerar, copie o valor dado e cole na chave APP_KEY, do .env.example.
 ```cl
 PORT=3333
 HOST=0.0.0.0
 NODE_ENV=development
-APP_KEY=nomeDaAplicação
+APP_KEY=Cole aqui!
 DB_CONNECTION=sqlite
 ```
 E, então, remova o sufixo .example do arquivo.
