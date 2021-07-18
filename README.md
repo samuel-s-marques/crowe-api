@@ -18,7 +18,7 @@ A Crowe está iniciando um novo processo seletivo e solicitou ao setor de Tecnol
 ## API
 | Método | Rota | Handler | Descrição |
 |--------|------|---------:|:-----------|
-|  POST  | /applicants | ApplicantsController.index | Lista todos os candidatos |
+|  GET  | /applicants | ApplicantsController.index | Lista todos os candidatos |
 |  POST  | /applicants/new | ApplicantsController.store | Cria dados de um novo candidato |
 |  HEAD, GET | /applicants/:id | ApplicantsController.show | Lista dados de um candidato específico, dado o ID |
 |  PUT  | /applicants/:id | ApplicantsController.update | Atualiza dados de um candidato específico, dado o ID |
