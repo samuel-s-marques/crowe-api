@@ -41,7 +41,7 @@ Este repositório guarda o back-end do projeto. Baixe e instale o projeto [crowe
 ## API
 | Método | Rota | Handler | Descrição |
 |--------|------|---------:|:-----------|
-|  GET  | /applicants | ApplicantsController.index | Lista todos os candidatos |
+|  HEAD, GET  | /applicants | ApplicantsController.index | Lista todos os candidatos |
 |  POST  | /applicants/new | ApplicantsController.store | Cria dados de um novo candidato |
 |  HEAD, GET | /applicants/:id | ApplicantsController.show | Lista dados de um candidato específico, dado o ID |
 |  PUT  | /applicants/:id | ApplicantsController.update | Atualiza dados de um candidato específico, dado o ID |
