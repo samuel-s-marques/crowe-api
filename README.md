@@ -36,6 +36,7 @@ Este repositório guarda o back-end do projeto. Baixe e instale o projeto [crowe
 - [x] Exclusão
 - [x] Exibição
 - [x] Edição
+- [x] Paginação
 
 ## API
 | Método | Rota | Handler | Descrição |
