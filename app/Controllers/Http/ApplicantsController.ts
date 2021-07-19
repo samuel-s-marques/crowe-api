@@ -5,9 +5,8 @@ import Applicant from 'App/Models/Applicant'
 export default class ApplicantsController {
 	public async index ({ request }: HttpContextContract) {
 		const page = request.input('page', 1)
-		const limit = 10
 
-		const applicants = await Database.query().from('applicants').select('*').paginate(page, limit)
+		const applicants = await Database.query().from('applicants').select('*').paginate(page)
 
 		return applicants
 	}
