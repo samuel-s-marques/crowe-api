@@ -62,7 +62,7 @@ The front-end needs the back-end to be running in order to work.
 Before beginning, you'll need to have installed in your machine [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/).
 
 ### Running the front-end (client)
-Download this repo (you will need to extract the files), clicking [here](https://github.com/samuel-s-marques/crowe-web/archive/refs/heads/master.zip) or cloning:
+Download this repo (you will need to extract the files), clicking [here](https://github.com/samuel-s-marques/crowe-web/archive/refs/heads/master.zip) or cloning it in your terminal/cmd:
 
 ```bash
 $ git clone https://github.com/samuel-s-marques/crowe-web
@@ -89,7 +89,7 @@ The client will start on port :8080 - access [http://localhost:8080](http://loca
 
 ### Running the back-end (server)
 
-Download the back-end's repo (you will need to extract the files), clicking [here](https://github.com/samuel-s-marques/crowe-api/archive/refs/heads/master.zip) or cloning:
+Download the back-end's repo (you will need to extract the files), clicking [here](https://github.com/samuel-s-marques/crowe-api/archive/refs/heads/master.zip) or cloning it in your terminal/cmd:
 
 ```bash
 $ git clone https://github.com/samuel-s-marques/crowe-api

@@ -74,7 +74,7 @@ Acesse a pasta do projeto no terminal/cmd
 $ cd crowe-web
 ```
 
-Instale as dependências com **yarn** ou **npm install**
+Instale as dependências com **npm install**
 ```bash
 $ npm install
 ```
@@ -97,7 +97,7 @@ Acesse a pasta do projeto no terminal/cmd
 $ cd crowe-api
 ```
 
-Instale as dependências com **yarn** ou **npm install**
+Instale as dependências com **npm install**
 ```bash
 $ npm install
 ```
