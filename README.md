@@ -1,4 +1,7 @@
 # crowe-api
+
+[🇬🇧 - English](./README.en.md)
+
 Desafio da Crowe para candidatos. API.
 
 A Crowe está iniciando um novo processo seletivo e solicitou ao setor de Tecnologia a criação de um formulário para cadastrar os candidatos que participarem desse processo seletivo.
