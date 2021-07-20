@@ -5,9 +5,15 @@ import Applicant from 'App/Models/Applicant'
 export default class ApplicantsController {
 	public async index ({ request }: HttpContextContract) {
 		const page = request.input('page', 1)
+		const query = request.input('query')
+		const value = request.input('value')
+
+		if (value && query) {
+			const applicants = await Applicant.query().where(query, value).first()
+			return applicants
+		}
 
 		const applicants = await Database.query().from('applicants').select('*').paginate(page)
-
 		return applicants
 	}
 	
